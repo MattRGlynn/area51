@@ -1,0 +1,240 @@
+body {
+  line-height: 1.5;
+  color: #555;
+  font-family: 'Lato',sans-serif;
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 30px 0;
+  font-family: 'Raleway',sans-serif;
+}
+
+h1>span:not(.nocolor), h2>span:not(.nocolor), h3>span:not(.nocolor), h4>span:not(.nocolor), h5>span:not(.nocolor), h6>span:not(.nocolor) {
+  color: #fc4237;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.heading-block {
+  margin-bottom: 50px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.center .heading-block:after, .heading-block.center:after, .heading-block.title-center:after {
+  margin: 30px auto 0;
+}
+
+.heading-block:after {
+  content: '';
+  display: block;
+  margin-top: 30px;
+  width: 40px;
+  border-top: 2px solid #444;
+}
+
+.main-nav {
+  margin-bottom: 5px;
+}
+
+.navbar-left img {
+  margin-left: 1em;
+}
+
+.featured-section {
+  background: url(../img/pattern2.png) repeat;
+  position: relative;
+}
+
+.bg-video {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-video video, .video-placeholder  {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.video-placeholder {
+  background-image: url(../img/chivastvbg.jpg);
+  background-position: 0;
+  min-height: 35em;
+}
+
+.video-content-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.video-content-overlay .content {
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  z-index: 10 !important;
+  transform: translate(-50%, -50%) !important;
+  text-align: center;
+}
+
+.video-content-overlay .content img {
+  max-width: 583px;
+  width: 100%;
+}
+
+.video-content-overlay .content h2 {
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: #eee;
+  line-height: 1.5em;
+}
+
+.video-content-overlay .content p {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family: Lato, sans-serif;
+  color: #eee;
+  line-height: 1.5em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.15)
+}
+
+.video-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background: rgba(0,0,0,0.55)  url(../img/grid.png) repeat;
+}
+
+.nopad {
+  padding: 0;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.divcenter {
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.ls1 {
+  line-height: 3em;
+}
+
+.portfolio-full .portfolio-desc {
+  padding: 15px;
+}
+
+.portfolio-full img {
+  width: 100%;
+}
+
+.portfolio-desc h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+}
+
+.portfolio-desc h3 a {
+  color: #222;
+  font-family: 'Raleway',sans-serif;
+  font-size: 22px;
+}
+
+.portfolio-desc h3 a:hover {
+  color: #fc4237;
+}
+
+.portfolio-desc span {
+  margin-top: 3px;
+  color: #888;
+}
+
+.free {
+  color: #fff!important;
+}
+.label-success {
+  background-color: #5cb85c;
+}
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 45%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.heading-block h3 {
+  font-size: 26px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+#footer.dark, .dark #footer {
+  color: #CCC;
+  border-top-color: rgba(0,0,0,0.2);
+}
+
+#footer {
+  position: relative;
+  background: #ff3e3d url(../img/footer-2.jpg) top center repeat-x;
+  border-top: 5px solid rgba(0,0,0,0.2);
+}
+
+.dark #copyrights {
+  background-color: rgba(0,0,0,0.2);
+  color: rgba(255,255,255,0.25);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+#copyrights {
+  padding: 40px 0;
+  background-color: #DDD;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.dark .copyright-links a {
+  color: rgba(255,255,255,0.25);
+  border-bottom-color: rgba(255,255,255,0.25);
+}
+
+.copyright-links a {
+  display: inline-block;
+  margin: 0 3px;
+  color: #333;
+  border-bottom: 1px dotted #444;
+}
